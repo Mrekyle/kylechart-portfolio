@@ -18,11 +18,53 @@
 
     {% block core_js %}
         <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/6ab0a7bbf9.js" crossorigin="anonymous"></script>
     {% endblock %}
 
 </head>
 <body>
-    
+    <section class="container px-4 py-1 fixed sticky h-screen w-64 bg-gray-800 flex flex-col place-content-evenly text-gray-200">
+        <div class="">
+            <div class="inline-flex items-center">
+                <img class="rounded-full size-20" alt="Kyle Chart Bitmoji Image" src="media/dev-logo.jpg">
+                <p class="px-3 text-lg font-bold"><a href="https://www.github.com/mrekyle" aria-label="Kyle Charts Github" target="_blank" rel="opener">@ Kyle Chart</a></p>
+            </div>
+        </div>
+        <div class="container ">
+            <nav class="text-center text-xl">
+                <ul class="leading-10">
+                    <li><a href="" class="hover:bg-sky-700" rel="opener" aria-label="Shows About Me">About</a></li>
+                    <li><a href="" class="" rel="opener" aria-label="Shows my projects">Projects</a></li>
+                    <li><a href="" class="" rel="opener" aria-label="Shows the contact page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="leading-10 pl-10 text-xl">
+            <div>
+                <p>
+                    <i class="fa-brands fa-instagram icon"></i>
+                    <a class="" href="https://www.instagram.com/kylechart_" aria-label="Opens Kyle Charts Instagram" rel="opener" target="_blank">@kylechart_</a>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <i class="fa-brands fa-github icon"></i>
+                    <a class="" href="https://www.github.com/mrekyle" aria-label="Opens Kyle Charts Github" rel="opener" target="_blank">@Mrekyle</a>
+                </p>
+            </div>
+                
+            <div>
+                <p>
+                    <i class="fa-brands fa-linkedin icon"></i>
+                    <a class="" href="https://www.linkedin.com/in/kylechart/" aria-label="Opens Kyle Charts Linkedin" rel="opener" target="_blank">@Kyle Chart</a>
+                </p>
+            </div>
+        </div>
+        <footer class="">
+            LIGHT/DARK MODE CONTROLS<br>
+           <p>Kyle Chart | &copy;  <script>document.write(new Date().getFullYear())</script></p>
+        </footer>
+    </section>
     {% block content %}
 
     {% endblock %}
