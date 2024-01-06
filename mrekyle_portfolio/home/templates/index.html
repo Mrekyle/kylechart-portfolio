@@ -1,9 +1,201 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}
-    Kyle Chart Portfolio
+    Kyle Chart | Full Stack Developer
 {% endblock %}
 
 {% block content %}
-
+    <section class="bg-gray-900">
+        <div class="landing">
+            <div class="intro">
+                <h3>Hi I'M <Span>Kyle Chart</Span><br>Full Stack Web Developer &<br>Freelance Copywriter</h3>
+                <button>Contact Me</button>
+            </div>
+            <div class="socials mr-44">
+                <div class="line"></div>
+                <i class="fa-brands fa-github icon"></i>
+                <i class="fa-brands fa-linkedin icon"></i>
+                <i class="fa-brands fa-instagram icon"></i>
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <h1>About</h1>
+        <div class="description">
+            <div class="line"></div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quis et cupiditate nisi libero ex
+                debitis enim iusto deleniti voluptate? Quaerat, architecto magnam fuga blanditiis aliquam debitis
+                impedit maxime obcaecati qui, consectetur ad sequi, ullam eius? Dolores quisquam aperiam earum similique
+                totam, perspiciatis incidunt maxime a esse laborum nihil, nisi optio! Sit praesentium ipsa provident,
+                quia deserunt amet neque ut laboriosam ex cum? Voluptatem culpa id maxime iste non quasi eos adipisci
+                quia. Reiciendis maxime quibusdam, enim iusto nam placeat, <span>cum eligendi quisquam temporibus
+                    libero,</span> odio aliquam unde voluptatum voluptates error laboriosam maiores eius cumque ipsum
+                molestiae atque eveniet eos?</p>
+        </div>
+    </section>
+    <section class="skills">
+        <h1>My Tech-Stack</h1>
+        <div class="cards">
+            <div class="skill-card">
+                <img src="media/python.svg" alt="">
+                <h2>Python</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/amazon-web-services.svg" alt="">
+                <h2>AWS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/css.svg" alt="">
+                <h2>CSS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/django.svg" alt="">
+                <h2>Django</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/flask.svg" alt="">
+                <h2>Flask</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/flutter.svg" alt="">
+                <h2>Flutter</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/git.svg" alt="">
+                <h2>GIT</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/html.svg" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/js.svg" alt="">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/linux-96.png" alt="">
+                <h2>Linux</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/mongodb.svg" alt="">
+                <h2>MongoDB</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/mysql.svg" alt="">
+                <h2>MySQL</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/nodejs.svg" alt="">
+                <h2>NodeJS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="media/react.svg" alt="">
+                <h2>ReactJS</h2>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio-loc">
+        <h1>Portfolio</h1>
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
+                <img src="asset/images/aperture-vintage-HF1IO60tQdc-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <h3>Amazon Scrapper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium!</p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/martin-martz-3_x1FRGAEwY-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <h3>Facebook Scrapper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium!</p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/vimal-s-bVplevb7Bhk-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <h3>Google Scrapper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium!</p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/warren-umoh-K7M7dQO-HrA-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <h3>Twitter Scrapper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium!</p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/warren-umoh-pnMjGMOs2Xw-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <h3>LinkedIn Scrapper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium!</p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/warren-umoh-VL12rhr4mi0-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <h3>YouTube Scrapper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium!</p>
+                    <button>See More -></button>
+                </div>
+            </div>
+        </div>
+        <Button>View More</Button>
+    </section>
+    <section class="experience">
+        <div class="darker-div"></div>
+        <h1 class="mt-14">Experience</h1>
+        <div class="lighter-div mt-6">
+            <div class="exp">
+                <h2>Senior Python Developer</h2>
+                <div class="exp-desc">
+                    <h3>Scottech, Toledo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, repellat! Mollitia nostrum,
+                        dolor repellat deleniti officiis voluptatem quas labore cupiditate iure ullam doloribus aliquam
+                        voluptates. Ratione earum reprehenderit iure, esse assumenda minima vero delectus consequuntur.
+                        Laborum eligendi nisi, doloremque, ab sint id enim in vel molestias, nihil vero suscipit a?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, repellat! Mollitia nostrum,
+                        dolor repellat deleniti officiis voluptatem quas labore cupiditate iure ullam doloribus aliquam
+                        voluptates. Ratione earum reprehenderit iure, esse assumenda minima vero delectus consequuntur.
+                        Laborum eligendi nisi, doloremque, ab sint id enim in vel molestias, nihil vero suscipit a?</p>
+                </div>
+            </div>
+            <div class="exp">
+                <h2>Senior Python Developer</h2>
+                <div class="exp-desc">
+                    <h3>Scottech, Toledo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, repellat! Mollitia nostrum,
+                        dolor repellat deleniti officiis voluptatem quas labore cupiditate iure ullam doloribus aliquam
+                        voluptates. Ratione earum reprehenderit iure, esse assumenda minima vero delectus consequuntur.
+                        Laborum eligendi nisi, doloremque, ab sint id enim in vel molestias, nihil vero suscipit a?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, repellat! Mollitia nostrum,
+                        dolor repellat deleniti officiis voluptatem quas labore cupiditate iure ullam doloribus aliquam
+                        voluptates. Ratione earum reprehenderit iure, esse assumenda minima vero delectus consequuntur.
+                        Laborum eligendi nisi, doloremque, ab sint id enim in vel molestias, nihil vero suscipit a?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <div class="contact-card">
+                <i class=""></i>
+                <p>work.devalphaspace.com</p>
+            </div>
+            <div class="contact-card">
+                <i class=""></i>
+                <p>Download Resume</p>
+            </div>
+        </div>
+    </section>
+</div>
 {% endblock %}
