@@ -140,9 +140,9 @@ body {
 }
 
 .skill-card {
-  height: 20vw;
-  width: 20vw;
-  background-color: #3d3e42;
+  height: 13vw;
+  width: 13vw;
+  background-color: #43444a;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -193,8 +193,8 @@ body {
 
 .portfolio-card {
   position: relative;
-  height: 30vw;
-  width: 30vw;
+  height: 25vw;
+  width: 25vw;
   background-color: #3d3e42;
   border-radius: 20px;
   overflow: hidden;
@@ -206,9 +206,13 @@ body {
 
 .portfolio-card img {
   position: relative;
-  height: 30vw;
-  width: 30vw;
+  height: 25vw;
+  width: 25vw;
   object-fit: cover;
+}
+
+.portfolio-card p {
+  text-wrap: balance;
 }
 
 .portfolio-card .overlay {
@@ -274,6 +278,26 @@ body {
   background-color: #cc9e4e;
 }
 
+.p-btn {
+  margin-top: 50px;
+  height: 48px;
+  width: 144px;
+  background-color: #fec86a;
+  border: 1px solid #fec86a;
+  border-radius: 8px;
+  color: #34353b;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.p-btn:hover {
+  background-color: #cc9e4e;
+}
+
 .experience {
   display: flex;
   flex-direction: column;
@@ -287,7 +311,7 @@ body {
 .darker-div {
   background-color: #34353a;
   width: 100vw;
-  height: 10vh;
+  height: 11vh;
 }
 
 .experience h1 {
@@ -388,4 +412,9 @@ body {
   display: flex;
   gap: 10px;
   margin-top: 7.5vh;
+}
+
+.git-link {
+  color: white;
+  font-size: 1.4rem;
 }
