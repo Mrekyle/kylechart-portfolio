@@ -17,6 +17,10 @@ body {
   background-color: #34353b;
 }
 
+.icon:hover {
+  color: rgb(29 78 216);
+}
+
 .landing {
   display: flex;
   height: 100vh;
@@ -417,4 +421,8 @@ body {
 .git-link {
   color: white;
   font-size: 1.4rem;
+}
+
+.contact-page {
+  background-color: #34353b;
 }

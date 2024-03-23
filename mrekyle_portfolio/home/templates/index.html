@@ -10,18 +10,18 @@
         <div class="landing">
             <div class="intro">
                 <h3>Hi I'm <Span>Kyle Chart</Span><br>Full Stack Web Developer &<br>Freelance Copywriter</h3>
-                <button>Contact Me</button>
+                <a href="{% url 'contact' %}" rel="opener" class="" aria-label="Open the contact page"><button>Contact Me</button></a>
             </div>
             <div class="socials mr-44">
                 <div class="line"></div>
-                <a class="" href="https://www.github.com/mrekyle" aria-label="Opens Kyle Charts Github" rel="opener" target="_blank"><i class="fa-brands fa-github icon"></i></a>
-                <a class="" href="https://www.linkedin.com/in/kylechart/" aria-label="Opens Kyle Charts Linkedin" rel="opener" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
-                <a class="" href="https://www.instagram.com/kylechart_" aria-label="Opens Kyle Charts Instagram" rel="opener" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
-                <i class="fa-regular fa-envelope"></i>
+                <a class="icon" href="https://www.github.com/mrekyle" aria-label="Opens Kyle Charts Github" rel="opener" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                <a class="icon" href="https://www.linkedin.com/in/kylechart/" aria-label="Opens Kyle Charts Linkedin" rel="opener" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+                <a class="icon" href="https://www.instagram.com/kylechart_" aria-label="Opens Kyle Charts Instagram" rel="opener" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+                <a class="icon" href="{% url 'contact' %}" aria-label="Opens the contact form" rel="opener" target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <h1>About</h1>
         <div class="description">
             <div class="line"></div>
@@ -92,7 +92,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio" id="portfolio-loc">
+    <section class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <div class="portfolio-cards">
             <div class="portfolio-card">
@@ -124,9 +124,9 @@
             </div>
         </div>
     </section>
-    <section class="experience">
+    <section class="experience" id="experience">
         <div class="darker-div"></div>
-        <h1 class="mt-8">Experience</h1>
+        <h1 class="mt-8">My Experience</h1>
         <div class="lighter-div mt-6">
             <div class="exp">
                 <h2>Freelance Web Developer</h2>
@@ -176,14 +176,10 @@
                 <i class=""></i>
                 <p>Contact Me</p>
             </div>
-            <div class="contact-card">
-                <i class=""></i>
-                <p>Download My Resume</p>
-            </div>
         </div>
     </section>
     <footer>
-        <div class="text-gray-300 pb-2 pr-2 flex justify-end">
+        <div class="text-gray-300 pb-2 pr-4 flex justify-end">
             &copy;  <script>document.write(new Date().getFullYear())</script> Kyle Chart |  <a target="_blank" aria-label="Opens up Kyle Charts github" href="https://www.github.com/mrekyle"><i class="fa-brands fa-github git-link ps-2"></i></a>
         </div>
     </footer>

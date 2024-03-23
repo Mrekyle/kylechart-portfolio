@@ -29,7 +29,7 @@ SECRET_KEY = [os.environ.get('SECRET_KEY')]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = os.environ.get('LOCAL_HOST')
+ALLOWED_HOSTS = ['127.0.0.1']
 DEBUG = True
 
 
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
     # APPS
     'home',
+    'contact',
 ]
 
 MIDDLEWARE = [
@@ -142,7 +143,7 @@ SITE_ID = 1
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    DEFAULT_CONFIRMATION_EMAIL = 'localitty@example.com'
+    DEFAULT_CONFIRMATION_EMAIL = ''
 else:
     EMAIL_HOST = ''
     EMAIL_HOST_USER = ''
